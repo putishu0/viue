@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }   
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }   
+h1, h2, h3, h4, h5, h6{ font-size:100%; }   
+address, cite, dfn, em, var { font-style:normal; }    
+small{ font-size:12px; }
+span,p{color:#666;}   
+ul, ol { list-style:none; }   
+a { text-decoration:none; color:#666;}     
+sup { vertical-align:text-top; }   
+sub{ vertical-align:text-bottom; }   
+legend { color:#000; }   
+fieldset, img { border:0; }   
+button, input, select, textarea { font-size:100%; }   
+table { border-collapse:collapse; border-spacing:0; }  
+
+header{
+	height:70px;
+	width:100%;
+	background:#333333;
+}
+.top{
+	height:70px;
+	width:1200px;
+	margin:0 auto;
+}
+.top img{
+	margin-top:10px;
+	float: left;
+}
+.top ul{
+	height:70px;
+	width:600px;
+	float:right;
+}
+.top ul li{
+	float: left;
+	width:118px;
+	line-height: 70px;
+	text-align: center;
+}
+.home{
+	background:#000;
+}
+.top a{
+	display: inline-block;
+	width:118px;
+	color:#fff;
+	text-decoration: none;
+}
+.top a:hover{
+	background:#000;
+}
+.banner{
+	height:300px;
+	width:100%;
+	background:url(../img/21.png);
+	background-size:100% 100%;
+	min-width: 1200px;
+	border-top:1px solid #222;
+}
+.banner p{
+	width:1200px;
+	margin:0 auto;
+	font-weight:600;
+	color:#fff;
+	position: relative;
+	top:120px;
+}
+.banner p::first-line{
+	font-size:30px;
+}
+.min-body{
+	height:1050px;
+	width:1200px;
+	margin:0 auto;
+}
+.main-left{
+	height:100%;
+	width:800px;
+	float: left;
+}
+h1{
+	font-size:30px;
+	margin-left:10px;
+	margin-top:20px;
+	color: #666
+}
+.main-left ul li{
+	height:270px;
+	width:370px;
+	border:1px solid #ccc;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding:5px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+.main-left ul li img{
+	width:100%;
+	height:230px;
+}
+.main-left input{
+	height:40px;
+	width:130px;
+	margin-left:41%;
+	margin-top:20px;
+	border:none;
+	background:#fff;
+	border:1px solid #bbb;
+	color:#666;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+.recommend{
+	height:250px;
+	width:380px;
+	border:1px solid #ccc;
+	float:right;
+	margin-top:20px;
+}
+.recommend span{
+	display: block;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #ccc;
+	background:#fafafa;
+	color:#666;
+	line-height: 40px;
+	text-indent: 10px;
+} 
+.recommend p{
+	float:left;
+	width:110px;
+	height:23px;
+	margin-left:12px;
+	margin-top:5px;
+	background:#eeeeee;
+	font-size:14px;
+	line-height: 23px;
+	text-indent: 5px;
+}
+.hot{
+	height:640px;
+	width:380px;
+	border:1px solid #ccc;
+	float:right;
+	margin-top:10px;
+}
+.hot span{
+	display: block;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #ccc;
+	background:#fafafa;
+	color:#666;
+	line-height: 40px;
+	text-indent: 10px;
+} 
+.hot img{
+	min-width: 100%;
+	max-width: 100%;
+	height:110px;
+}
+.hot p{
+	height:140px;
+	width:175px;
+	float: left;
+	margin-left: 10px;
+	margin-top:8px;
+	text-align: center;
+}
+.box{
+	height:110px;
+	width:380px;
+	border:1px solid #ccc;
+	float: right;
+	margin-top:10px;
+}
+.box span{
+	display: block;
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #ccc;
+	background:#fafafa;
+	color:#666;
+	line-height: 40px;
+	text-indent: 10px;
+} 
+.box p{
+	width:180px;
+	height:25px;
+	float:left;
+	margin-left:6px;
+	margin-top:5px;
+	line-height: 25px;
+	text-indent: 10px;
+	background:#eee;
+}
+footer{
+	height:300px;
+	width:100%;
+	background:#222;
+	margin-top:30px;
+}
+.enterprise{
+	height:250px;
+	width:1200px;
+	margin:0 auto;
+}
+.partner{
+	width:350px;
+	height:100%;
+	float: left;
+	margin-left:40px;
+}
+h3{
+	color:#bbb;
+	font-size:25px;
+	margin-top:20px;
+}
+hr{
+	border:1px dashed #aaa;
+	margin-top:15px;
+}
+.partner p{
+	line-height: 30px;
+}
+.partner a{
+	color:#777;
+}
+h6{
+	height:50px;
+	width:100%;
+	background:#000;
+	text-align: center;
+	color:#767970;
+	margin-top:5px;
+	line-height: 50px;
+	font-size:14px;
+	min-width: 1200px;
+}
